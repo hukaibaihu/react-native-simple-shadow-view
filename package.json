@@ -1,14 +1,16 @@
 {
-  "name": "react-native-simple-shadow-view",
-  "version": "1.6.3",
-  "description": "a Native shadow view for react native, for Android and iOS",
+  "name": "@ste7en/react-native-simple-shadow-view",
+  "version": "1.0.0",
+  "description": "A native shadow view for react native, for Android and iOS",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
+    "trypublish": "npm publish --access=public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ConduitMobileRND/react-native-simple-shadow-view"
+    "url": "https://github.com/hukaibaihu/react-native-simple-shadow-view"
   },
   "keywords": [
     "react-native",
@@ -20,9 +22,22 @@
     "shadow-view",
     "simple-shadow-view"
   ],
-  "author": "Roy Ben-Sasson",
+  "files": [
+    "android",
+    "src",
+    "index.js",
+    "index.d.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "author": {
+    "name": "Ste7en",
+    "email": "986535362@qq.com"
+  },
   "license": "MIT",
+  "homepage": "https://github.com/hukaibaihu/react-native-simple-shadow-view#readme",
   "peerDependencies": {
+    "react": "*",
     "react-native": "0.51.0"
   }
 }

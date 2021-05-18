@@ -1,13 +1,13 @@
 
-# react-native-simple-shadow-view
+# @ste7en/react-native-simple-shadow-view
 
 ## Getting started
 
-`$ npm install react-native-simple-shadow-view --save`
+`$ npm install @ste7en/react-native-simple-shadow-view --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-simple-shadow-view`
+`$ react-native link @ste7en/react-native-simple-shadow-view`
 
 ### Manual installation
 
@@ -27,7 +27,7 @@
 2. Append the following lines to `android/settings.gradle`:
   	```
   	include ':react-native-simple-shadow-view'
-  	project(':react-native-simple-shadow-view').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-simple-shadow-view/android')
+  	project(':react-native-simple-shadow-view').projectDir = new File(rootProject.projectDir, 	'../node_modules/@ste7en/react-native-simple-shadow-view/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
@@ -46,7 +46,7 @@ Set shadow parameters to the ShadowView just as you use shadows in iOS. it will 
 
 ```javascript
 import React, { Component } from 'react';
-import ShadowView from 'react-native-simple-shadow-view'
+import ShadowView from '@ste7en/react-native-simple-shadow-view'
 
 class MyView extends Component {
 
